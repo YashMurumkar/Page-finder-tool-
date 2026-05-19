@@ -1,4 +1,4 @@
-# ✅ 1. Prepare your environment (correct first step)
+# 1. Update (correct first step)
 
 Before running your script, do:
 
@@ -6,7 +6,7 @@ Before running your script, do:
 sudo apt update
 ```
 
-# 🐍 Step 2: Check Python Installation
+#  Step 2: Check Python Installation
 
 Kali usually has Python pre-installed:
 
@@ -22,18 +22,18 @@ sudo apt install python3-y
 
 ---
 
-# 📁 Step 3: Create Project Folder
+#  Step 3: Create Project Folder
 
 ```
 mkdir page_finder
 cd page_finder
 ```
-## 📄 Step 4: Create Python file
+##  Step 4: Create Python file
 
 ```
 nano page_finder.py
 ```
-## ✍️ Step 5: Paste this script
+##  Step 5: Paste this script
 
 ```
 importrequests
@@ -73,18 +73,18 @@ print(f"[NOT FOUND]{full_url}")
 exceptrequests.exceptions.RequestException:
 print(f"[ERROR]{full_url}")
 ```
-## 💾 Step 6: Save and exit
+##  Step 6: Save and exit
 
 - Press `CTRL + X`
 - Press `Y`
 - Press `Enter`
  
-## ▶️ Step 7: Run the tool
+##  Step 7: Run the tool
 
 ```
 python3 page_finder.py
 ```
-## 🔍 Example Output
+##  Example Output
 
 ```
 Enter website URL: https://test.com
