@@ -8,7 +8,6 @@ sudo apt update
 
 #  Step 2: Check Python Installation
 
-Kali usually has Python pre-installed:
 
 ```
 python3--version
